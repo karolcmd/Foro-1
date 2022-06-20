@@ -1,0 +1,66 @@
+:root{
+    --degradado: linear-gradient(100deg, #70FAD9 23%, #621ABD 100%);
+    --radius: 5px;
+    --fuente-tipo: sans-serif;
+    --fuente-color: #423939;
+    --fuente-tam: 2.7vmin;
+    --borde: 1px solid #B3B3B3;
+}
+
+*{
+    margin: 0 auto;
+}
+
+body{
+    background: var(--degradado);
+}
+
+.conte-formulario{
+    width: 427px;
+    height: 600px;
+    background: white;
+    border-radius: var(--radius);
+    margin-top: 30px;
+}
+
+.control{
+    width: 80%;
+    height: 70px;
+    margin-top: 30px;
+}
+
+h1{
+    font-family: var(--fuente-tipo);
+    color: var(--fuente-color);
+    text-align: center;
+    line-height: 70px;
+}
+
+.label{
+    font-family: var(--fuente-tipo);
+    font-size: var(--fuente-tam);
+    color: var(--fuente-color);
+}
+
+.textbox{
+    width: 98%;
+    height: 30px;
+    font-family: var(--fuente-tipo);
+    font-size: var(--fuente-tam);
+    color: var(--fuente-color);
+    border-radius: var(--radius);
+    outline: none;
+    border: var(--borde);
+}
+
+.boton{
+    width: 98%;
+    height: 40px;
+    font-family: var(--fuente-tipo);
+    color: white;
+    font-size: var(--fuente-tam);
+    border-radius: var(--radius);
+    border: var(--borde);
+    outline: none;
+    background: var(--degradado);
+}
